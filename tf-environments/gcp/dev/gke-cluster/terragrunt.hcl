@@ -22,7 +22,7 @@ inputs = {
 
   enable_private_kube_master_endpoint = false
 
-  gke_version = "1.16.8-gke.8"
+  gke_version = "1.14.10-gke.27"
   initial_node_count = "1"
 
   master_ipv4_cidr_block="10.32.11.0/28"
@@ -53,7 +53,7 @@ inputs = {
     }
   ]
 
-  release_channel_channel = "RAPID"
+  release_channel_channel = "STABLE"
 
   enable_intranode_visibility = true
 }
