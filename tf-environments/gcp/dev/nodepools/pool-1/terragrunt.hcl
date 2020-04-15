@@ -28,7 +28,7 @@ inputs = {
   disk_size_gb = "100"
   auto_upgrade = true
 
-  image_type = "COS"
+  image_type = "Ubuntu"
 
   # These represent the "gke-defaults" scope list
   oauth_scopes = [
