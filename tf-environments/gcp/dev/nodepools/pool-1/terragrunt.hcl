@@ -30,6 +30,11 @@ inputs = {
 
   image_type = "UBUNTU"
 
+  guest_accelerator = [{
+    type = "nvidia-tesla-p4",
+    count = 1
+  }]
+
   # These represent the "gke-defaults" scope list
   oauth_scopes = [
     "https://www.googleapis.com/auth/devstorage.read_only",
